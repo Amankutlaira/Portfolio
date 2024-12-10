@@ -1,0 +1,55 @@
+.contact-popup {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  min-height: 15%;
+  max-height: fit-content;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-1);
+  padding: 15px;
+  border: 1px solid var(--highlight-6);
+  box-shadow: 0px 0px 20px -6px var(--highlight-6);
+  border-radius: 5px;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.contact-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.contact-popup-header button {
+  background-color: transparent;
+  border: none;
+  color: var(--highlight-6);
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.contact-popup-header button:hover {
+  transform: scale(1.05);
+  color: var(--highlight);
+}
+
+.contact-popup-message {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 1rem 1.5rem 1rem;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-2);
+}

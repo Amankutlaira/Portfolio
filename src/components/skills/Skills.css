@@ -1,0 +1,61 @@
+#skills {
+    width: 70%;
+    height: 100%;
+    margin: 40% auto;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+
+/* Laptop Screen  */
+@media (max-height: 768px) {
+    #skills {
+        width: 75%;
+    }
+}
+
+
+/* Small Mobile  */
+@media screen and (max-height: 690px) {
+    #skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 85%;
+        min-height: 80vh;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .skills-container {
+        height: 80%;
+        margin-bottom: 5vh;
+    }
+}
+
+/* Large Mobile/Tab Settings */
+@media (max-width: 768px) and (min-height: 690px) {
+    #skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 90%;
+        min-height: 80vh;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .skills-container {
+        height: 80%;
+        margin-bottom: 5vh;
+    }
+}
+
