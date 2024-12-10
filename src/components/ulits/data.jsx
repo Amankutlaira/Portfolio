@@ -25,6 +25,7 @@ import threejs from "../../assets/svg/threejs.svg";
 import openai from "../../assets/svg/openai.svg";
 import nodejs from "../../assets/svg/nodejs.svg";
 import swagger from "../../assets/svg/swagger.svg";
+import typescript from "../../assets/svg/typescript.svg";
 
 export const profileInfo = {
   name: "Aman Kutlaria",
@@ -68,12 +69,8 @@ export const skillsData = [
       { Python: python },
       { Node: nodejs },
       { "REST API": restApi },
-      { Swagger: swagger },
-      { Docker: docker },
-      { Nginx: nginx },
-      { Ansible: ansible },
+      { Typescript: typescript },
       { AWS: aws },
-      { Bash: Bash },
     ],
   },
   {
@@ -96,6 +93,9 @@ export const skillsData = [
       { Git: git },
       { Github: Github },
       { "CI/CD": cicd },
+      { "Three.js": threejs },
+      { Nginx: nginx },
+      { OpenAI: openai },
     ],
   },
 ];
